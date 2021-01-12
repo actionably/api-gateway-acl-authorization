@@ -7,11 +7,14 @@
  * @param permissions asked permissions
  */
 module.exports = (resourcePermissionsMap, resource, permissions = []) => {
-  const resourcePermissions = resourcePermissionsMap[resource] || []
+  const resourcePermissions = resourcePermissionsMap[resource] || [];
 
-  if(resourcePermissions.length === 0) {
-    return false
+  if (resourcePermissions.length === 0) {
+    return false;
   }
 
-  return permissions.reduce((prev, value) => resourcePermissions.includes(value) && prev, true)
-}
+  return permissions.reduce(
+    (prev, value) => resourcePermissions.includes(value) && prev,
+    true
+  );
+};

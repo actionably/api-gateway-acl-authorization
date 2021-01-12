@@ -1,2 +1,2 @@
-exports.botResource = (botId) => `/bots/${botId}`
-exports.partnerResource = (partnerId) => `/partner/${partnerId}`
+exports.botResource = (botId) => `/bots/${botId}`;
+exports.partnerResource = (partnerId) => `/partner/${partnerId}`;
