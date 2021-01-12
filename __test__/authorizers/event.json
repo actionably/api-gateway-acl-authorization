@@ -1,0 +1,26 @@
+{
+  "requestContext": {
+    "authorizer": {
+      "lambda": {
+        "permissions": {
+          "/bots/1": [
+            "admin"
+          ],
+          "/partner/1": [
+            "owner",
+            "admin"
+          ]
+        },
+        "user": {
+          "admin": 0,
+          "created": "2017-01-17T18:44:27.825Z",
+          "email": "foo@dashbot.io",
+          "expires": "2021-02-10T22:27:52.041Z",
+          "lastLogin": "2021-01-11T22:27:52.000Z",
+          "partnerId": 1,
+          "partnerUserId": 2
+        }
+      }
+    }
+  }
+}
